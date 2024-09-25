@@ -5,10 +5,10 @@ Repositório para ser usado pelos candidatos à vaga de Desenvolvedor Júnior Ba
 
 ## Inicialmente a base de dados estará vazia. O app usa H2.
 
-## - Para listar itens: GET - http://localhost:8080/api/todos
-## - Para criar itens: POST - http://localhost:8080/api/todos (Corpo do item num body JSON no formato: { "name": "teste2", "description": "testando create", "priority": 3 })
-## - Para alterar estado (feito ou não feito): PATCH - http://localhost:8080/api/todos/{idDoTodo}/status
-## - Para alterar nível de prioridade de um item: PATCH - http://localhost:8080/api/todos/{idDoTodo}/priority?priority={novoNivelDePrioridade}
+- Para listar itens: GET - http://localhost:8080/api/todos
+- Para criar itens: POST - http://localhost:8080/api/todos (Corpo do item num body JSON no formato: { "name": "teste2", "description": "testando create", "priority": 3 })
+- Para alterar estado (feito ou não feito): PATCH - http://localhost:8080/api/todos/{idDoTodo}/status
+- Para alterar nível de prioridade de um item: PATCH - http://localhost:8080/api/todos/{idDoTodo}/priority?priority={novoNivelDePrioridade}
 
 
 ## Descrição
