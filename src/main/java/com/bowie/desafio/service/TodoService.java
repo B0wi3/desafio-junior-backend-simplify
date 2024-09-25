@@ -2,7 +2,6 @@ package com.bowie.desafio.service;
 
 import com.bowie.desafio.entity.Todo;
 import com.bowie.desafio.repository.TodoRepository;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
